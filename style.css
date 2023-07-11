@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+.btn{
+    background-color: #e55473;
+    padding: 15px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.del-pink{
+    color: #e55473;
+}
+/* header section starts */
+header{
+    position: sticky;
+    top: 0;
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+header .logo a{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #333;
+    padding: 0 1.5rem;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    color: #e55473;
+}
+/* header section ends */
+
+/* feature section starts */
+.home{
+    max-height: 100vh;
+    background-color: #fceef1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.content{
+    width: 42%;
+    margin-left: 110px;
+}
+.image-sec{
+    width: 35%;
+}
+
+.home-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #272727;
+}
+.home-para{
+    font-size: 14px;
+    color: #7c7677;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+/* home section ends */
+
+/* feature section starts */
+.box-1{
+    background-color: #f1dde7;
+}
+.box-2{
+    background-color: #d9eff0;
+    
+}
+.box-3{
+    background-color: #e3ebdb;
+}
+.featured-box{
+    display: flex;
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.box-images{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-images img{
+    width: 80%;
+
+}
+.box{
+    margin: 0 8px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.box-text{
+    text-align: center;
+    margin: 15px;
+}
+.box-text a{
+    color: #272727;
+}
+
+/* feature section ends */
+
+/* deal section starts */
+.deal{
+    background-color: #fdf6f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.deal-content{
+    width: 36%;
+    margin-left: 150px;
+    text-align: center;
+}
+.deal-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #272727;
+}
+
+.deal-para{
+    font-size: 14px;
+    color: #7c797a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.deal-image{
+    width: 25%;
+    margin-right: 100px;
+}
+/* deal section ends */
+
+/* instagram section starts */
+.instagram{
+    background-color: #fff;
+    padding: 100px;
+}
+.instagram-title{
+    font-size: 25px;
+    color: #272727;
+}
+.instagram-desc{
+    text-align: center;
+}
+.instagram-para{
+    color: #7d7d7d;
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+}
+.instagram-image{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram-image img{
+    width: 100%;
+}
+.image-1{
+    margin: 8px;
+}
+/* instagram section ends */
+
+/* latest section starts */
+ 
+.latest-image img{
+   width: 74%;
+   margin: 0 auto;
+   display: block;
+    
+}
+.latest-image{
+    position: relative;
+}
+.latest-desc{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+.latest-input{
+    width: 400px;
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* latest section ends */
+
+/* footer section starts*/
+.footer{
+    background-color: #111010;
+    display: block;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-title{
+    color: #fff;
+    font-size: 40px;
+}
+.footer-para{
+    color:#e6e6e6
+}
+.copy{
+    color: #706f6f;
+    font-size: 12px;
+}
+/* footer section ends*/
